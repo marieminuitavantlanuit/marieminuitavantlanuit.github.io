@@ -1,0 +1,453 @@
+@font-face {
+    font-family: BRRR;
+    src: url(font/BRRRTrial-Skrrt-WebTrial.woff) format("woff");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: messapia;
+    src: url(font/Messapia-Bold.woff) format("woff");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: cooper Hewitt;
+    src: url(font/CooperHewitt-Light.woff) format("woff");
+    font-style: lighter;
+}
+
+@font-face {
+    font-family: cooper Hewitt;
+    src: url(font/CooperHewitt-Thin.woff) format("woff");
+    font-style: Thin;
+}
+
+/* img et logo */
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.logometronomy {
+    margin-top: 70px;
+}
+
+.imgplan {
+    margin-top: 20px;
+    grid-column: span 2;
+}
+
+.mail{
+    grid-column: span 2;
+    margin-top: 15px;
+
+}
+
+/*star*/
+
+
+
+/* header*/
+
+.logomalnpetit {
+    grid-column: 1/-1;
+    margin-top: 5px;
+}
+
+.logo {
+    grid-column: 1/-1;
+    margin-top: 100px;
+}
+
+
+.header {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    place-items: center;
+    font-family: BRRR;
+    color: white;
+
+}
+
+/* BODY */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 3fr;
+    background-color: rgb(3, 0, 44);
+    background-image: url(background/background.png);
+    background-size: 100%;
+    background-attachment: fixed;
+    margin: 5%;
+}
+
+/* TEXTES */
+
+.titre {
+    grid-column: 1/-1;
+    text-align: center;
+    font-family: BRRR;
+    color: white;
+    text-transform: uppercase;
+    font-size: clamp(20px, 3vw, 30px);
+    text-decoration: none;
+    margin-top: 100px;
+    margin-bottom: 0cm;
+}
+
+.titre2 {
+    grid-column: 1/-1;
+    text-align: center;
+    font-family: messapia;
+    color: white;
+    text-transform: uppercase;
+    font-size: clamp(20px, 3vw, 30px);
+    text-decoration: none;
+    margin-top: 100px;
+    margin-bottom: 0cm;
+}
+
+.titre3 {
+    grid-column: 1/-1;
+    text-align: center;
+    font-family: BRRR;
+    color: white;
+    font-size: clamp(20px, 3vw, 30px);
+    text-decoration: none;
+    margin-top: 100px;
+    margin-bottom: 0cm;
+}
+
+.titre4 {
+    grid-column: 1/-1;
+    text-align: center;
+    font-family: BRRR;
+    color: white;
+    text-transform: uppercase;
+    font-size: clamp(20px, 3vw, 30px);
+    text-decoration: none;
+    margin-top: 100px;
+    margin-bottom: 0cm;
+    border: 2px solid;
+    border-radius: 30px;
+    border-color: rgb(255, 255, 255)
+}
+
+.sous-titre {
+    grid-column: 1/-1;
+    font-family: BRRR;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 0cm;
+
+}
+
+.sous-titre2 {
+    grid-column: 1/-1;
+    font-family: messapia;
+    text-align: center;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0cm;
+
+}
+
+.textIPBRRR {
+    grid-column: 1/-1;
+    font-family: messapia;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    font-size: clamp(10px, 3vw, 14px);
+}
+
+.text {
+    grid-column: 1/-1;
+    font-family: 'Cooper Hewitt', sans-serif;
+    font-weight: lighter;
+    font-size: clamp(10px, 3vw, 14px);
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.textIPlight {
+    grid-column: 1/-1;
+    font-family: 'Cooper Hewitt', sans-serif;
+    font-weight: lighter;
+    font-size: clamp(13px, 3vw, 14px);
+    text-align: center;
+    color: white;
+    margin-top: 55px;
+}
+
+.textIP {
+    grid-template-columns: 1fr;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.titreprogrammation {
+    grid-row: 2;
+    font-family: messapia;
+    color: white;
+    font-size: clamp(14px, 3vw, 16px);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media (min-width:800px) {
+    .titreprogrammation {
+        grid-row: 2;
+        font-family: messapia;
+        color: white;
+        margin-top: -10px;
+        font-size: 16px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+}
+
+.day {
+    grid-column: 1/-1;
+    text-align: center;
+    font-family: BRRR;
+    color: white;
+    text-transform: uppercase;
+    font-size: clamp(20px, 3vw, 30px);
+    text-decoration: none;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    border-top: 2px solid;
+    border-color: white;
+
+}
+
+.hdp {
+    grid-column: 1/-1;
+    font-family: messapia;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    margin-top: 70px;
+    margin-bottom: 0cm;
+    text-decoration: none;
+
+}
+
+.bulle {
+    background-color: rgba(255, 255, 255, 0.164);
+    border-radius: 60px;
+    width: 350px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border: 2px solid;
+    color: white;
+    padding: 15px;
+}
+
+.soustitrebillet {
+    grid-row: 2;
+    font-family: messapia;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: clamp(10px, 3vw, 16px);
+
+}
+
+@media (min-width:800px) {
+    .soustitrebillet {
+        grid-row: 2;
+        font-family: messapia;
+        text-align: center;
+        color: white;
+        margin-top: 0px;
+        font-size: clamp(10px, 3vw, 16px);
+
+    }
+}
+
+.titreartiste {
+    text-align: center;
+    font-family: BRRR;
+    color: white;
+    text-transform: uppercase;
+    font-size: clamp(20px, 3vw, 35px);
+    text-decoration: none;
+    margin-top: 100px;
+}
+
+.tagsartiste {
+    grid-column: 1;
+    font-family: messapia;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+    font-size: clamp(10px, 3vw, 16px);
+}
+
+@media (min-width:800px) {
+    .tagsartiste {
+        grid-column: 1;
+        font-family: messapia;
+        text-align: center;
+        color: white;
+        margin-top: ;
+        font-size: clamp(10px, 3vw, 16px);
+        line-height: 40px;
+    }
+}
+
+.descriptionartiste {
+    grid-column: 1;
+    font-family: messapia;
+    text-align: center;
+    color: white;
+    margin-top: 0px;
+    font-size: clamp(10px, 3vw, 14px);
+    background-color: rgba(255, 255, 255, 0.116);
+    padding: 15px;
+    border: 2px solid;
+    border-radius: 40px;
+    color: rgb(255, 255, 255);
+}
+
+@media (min-width:800px) {
+    .descriptionartiste {
+        grid-column: 1;
+        font-family: messapia;
+        text-align: center;
+        color: white;
+        margin-top: ;
+        font-size: clamp(10px, 3vw, 14px);
+        background-color: rgba(255, 255, 255, 0.205);
+        padding: 15px;
+        border: 2px solid;
+        border-radius: 40px;
+        color: white;
+    }
+}
+
+.retour {
+    grid-column: 1;
+    font-family: messapia;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    font-size: clamp(10px, 3vw, 12px);
+}
+
+.textplan {
+    grid-column: 1;
+    font-family: messapia;
+    color: white;
+    font-size: clamp(10px, 3vw, 16px);
+
+}
+
+.textbenevolat {
+    font-family: messapia;
+    color: white;
+    font-size: clamp(10px, 3vw, 16px);
+    border: 2px ;
+    border-radius: 30px;
+    border-color: white;
+}
+
+/* GRILLES */
+/* grilles programmation et billetterie */
+
+.pagebenevolat {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+@media (min-width:800px) {
+    .pagebenevolat {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 50px;
+        padding: 30px;
+        gap:30px;
+    }
+}
+
+.plandusite {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 50px;
+}
+
+@media (min-width:800px) {
+    .plandusite {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 50px;
+        margin-top: 20px;
+    }
+}
+
+.billet {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+@media (min-width:800px) {
+    .billet {
+        margin-top: 120px;
+        gap: 30px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        place-items: center;
+    }
+}
+
+.programmation {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+@media (min-width:800px) {
+    .programmation {
+        margin-top: 70px;
+        gap: 60px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        place-items: center;
+    }
+}
+
+/* grille page des artistes */
+
+.pageartiste {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+@media (min-width:800px) {
+    .pageartiste {
+        margin-top: 70px;
+        gap: 60px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+}
